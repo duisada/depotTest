@@ -1,0 +1,120 @@
+
+RACCOURCIS TERMINAL
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Astuces :
+
+Tapez uniquement cd Doc puis appuyez sur la touche de tabulation. La commande se complète toute seule (cd Documents/). 
+
+Ctrl + Maj + C" (pour copier) et "Ctrl + Maj + V" (pour coller).
+
+" Flèche du Haut et du Bas " pour retrouver la commande d'exécution que vous aviez tappée (il est très pratique de ne pas avoir à tout retaper).
+
+"Ctrl + c" pour arreter une boucle infinie
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+MOTS-CLES                           DEFINITIONS
+/////////                           ///////////  
+
+
+"clear"				    Pour clear entierement le terminal.
+
+"ls"                                 
+                                    La commande "ls" vient de "LiSt" en anglais et permet en effet d'afficher la liste des fichiers/dossiers du répertoire actuel.
+                                    Les dossiers sont affichés en bleu et les fichiers en blanc, les programmes en vert. 
+
+
+"ls NomDuDossier"    
+                                    Pour afficher les fichiers d'un sous-dossier.
+
+
+"pwd"                                
+                                    Pour savoir dans quel répertoire on est, on utilise la commande pwd (pour "Print Working Directory" ce qui signifie "Afficher Répertoire Actuel")
+
+
+"cd" (cd /home/manu/Documents/) 
+                                    Pour changer de repertoire ("cd" seul pour revenir au /home )
+
+
+"cd .."                              
+                                    Pour remonter d'un niveau (faire demi tour)
+
+
+"seq"     (seq 1 3 10)               
+                                    Permer d'afficher les nombres entre deux bornes.
+
+
+"mkdir"                              
+                                    Pour "MaKe DIRectory" ce qui signifie "Créer Répertoire"
+
+
+"rmdir"                              
+                                    Pour "ReMove DIRectory" ce qui signifie "Supprimer Répertoire"(seulement si il est vide).
+
+
+"rm NomDuFichier"                  
+                                    Pour supprimer un fichier, exemple (rm dir1/files1.txt).
+
+
+"rm -rf"
+                                    Pour supprimer un dossier et ses sous dossiers. 
+                                    (le "-rf" correspond à des options qu'on donne à la commande "rm" : le "-" indique qu'on va donner des options,
+                                     le "r" correspond à "récursif" et le "f" demande à ce qu'on ne nous demande pas de confirmation.
+                                     Attention cette commande est très puissante ! 
+                                     Comme il n'y a pas de confirmation, on a vite fait de supprimer plus de choses que prévu, utilisez donc cette commande avec précaution ! 
+
+
+"cat"                                
+                                    Pour afficher le contenu d'un fichier dans le terminal. ex:(cat NomDuFichier.txt)
+
+
+"less"                               
+                                    Pour afficher le contenu d'un fichier "page par page" (Ouvre une page à part). 
+                                    Pour se déplacer dans le fichier, utiliser les flèches "haut" et "bas" ou "Page Up" et "Page Down" (pratique quand le fichier est très grand). 
+                                    Pour quitter ce programme, appuyer sur la touche "q" (pour "quit").
+
+
+"./"	  (./hello)	                 
+                                    Pour executer un fichier (une fois dans le bon repertoire)	
+
+
+"vim nom_du_fichier.son_extension"  
+                                    Pour ouvrir un fichier dans Vim.
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+COMPILATION
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"gcc -o"  (gcc main.c -o hello)      
+                                    Pour compiler un fichier (gcc + nom du fichier + -o + nom donné au futur fichier compilé)
+
+
+"gcc -std=gnu99 -o prog prog.c"      
+                                    "gcc" est le nom du compilateur pour le langage C.
+                                    "-o prog" indique le nom (ici "prog") du fichier exécutable qu'on souhaite créer.
+                                    "prog.c" est le nom du fichier contenant le code-source.
+                                    "-std=gnu99" indique qu'on souhaite utiliser le standard C99 pour le langage C.
+
+
+
+"gcc *.c" (gcc *.c -o hello)         
+                                    Pour compiler tous les fichiers en .c (gcc + espace *.c + -o + nom donné au futurs fichiers compilé)
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+"touch"   (touch nomDuFichier.txt)   
+                                    {Une fois à l'adresse du repertoire entrer touch nomDuFichier.txt) )
+                                    pour plusieurs à la fois (touch fichier1.txt fichier2.txt fichier3.txt etc...}
+
+
+
+
+  
